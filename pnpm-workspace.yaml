@@ -3,6 +3,10 @@ minimumReleaseAgeExclude:
   - "@void/*"
   - vize
   - void
+  - cf
+  - "@cloudflare/*"
+  - miniflare
+  - workerd
 allowBuilds:
   esbuild: true
   workerd: true
