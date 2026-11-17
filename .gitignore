@@ -4,3 +4,4 @@ dist
 .cloudflare
 .wrangler
 .void-wrangler.jsonc
+void.lock.json
