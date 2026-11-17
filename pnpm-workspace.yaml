@@ -1,0 +1,12 @@
+minimumReleaseAgeExclude:
+  - "@vizejs/*"
+  - "@void/*"
+  - vize
+  - void
+  - cf
+  - "@cloudflare/*"
+  - miniflare@5.20261117.0-beta
+  - workerd@1.20261117.1
+allowBuilds:
+  esbuild: true
+  workerd: true
