@@ -3,6 +3,8 @@ minimumReleaseAgeExclude:
   - "@void/*"
   - vize
   - void
+  - vue
+  - "@vue/*"
   - cf
   - "@cloudflare/*"
   - miniflare

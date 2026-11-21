@@ -8,12 +8,13 @@
     "check": "pnpm build:vue && node check.js && pnpm build && node check.js"
   },
   "dependencies": {
-    "vue": "3.5.45"
+    "vue": "3.5.46"
   },
   "devDependencies": {
-    "@vizejs/vite-plugin": "0.777.0",
-    "@void/vue": "1.10.0",
+    "@vizejs/vite-plugin": "0.787.0",
+    "@void/vue": "1.11.0",
     "vite": "8.3.8",
-    "void": "1.10.0"
+    "vite-plus": "1.7.0",
+    "void": "1.11.0"
   }
 }

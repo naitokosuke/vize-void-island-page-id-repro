@@ -1,6 +1,7 @@
 import { voidVue } from "@void/vue/plugin";
-import vize from "@vizejs/vite-plugin";
-import { defineConfig } from "vite";
+import { defineConfig } from "@vizejs/vite-plugin/vite-plus";
 import { voidPlugin } from "void";
 
-export default defineConfig({ plugins: [voidPlugin(), vize(), voidVue()] });
+export default defineConfig({
+  plugins: [voidPlugin(), voidVue()],
+}).withVue({});
